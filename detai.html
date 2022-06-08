@@ -1,0 +1,508 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <title>Chăm sóc thú cưng</title>
+        <style>
+            .container {
+                width: 1000px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr 3fr 1.5fr;
+                grid-template-rows: 50px 70px 70px 50px;
+            }
+            div div {
+                border: 1px solid white;
+                padding: 2px;
+                border-radius: 3px;
+                color: black;
+                text-align: center;
+            }
+            .head{
+                grid-column: 1 / -1;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid white;
+            }
+            .d-flex{
+                width: 50%;
+                margin-right: 15%;
+            }   
+            .check-2{
+                margin-right: -5%;
+            }
+            .check-4{
+                margin-bottom: -20%;
+            }
+            .head-link {
+                grid-column: 1 / -1;
+                background-color: white;
+                border: 1px solid white;
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;         
+            }
+            .set-1{
+                margin-left: 10%;
+                margin-top: 7%;
+            }
+            .set-2{
+                margin-left: 10%;
+                margin-top: 7%;
+            }
+            .set-3{
+                margin-left: 10%;
+                margin-top: 7%;
+            }
+            .set-4{
+              margin-left: 10%;
+              margin-top: 5%;
+            }
+            .table-1{
+              width: 80%;
+              background-color: whitesmoke;
+              border: 1px solid black;
+              margin-left: 10%;
+              margin-bottom: 5%;
+            }
+            .rename-1{
+              border: 3px solid whitesmoke;
+            }
+            .rename-2{
+              border: 1px solid black;
+              color: black;
+              margin-top: 9%;
+              margin-bottom: 20%;
+              font-size: 18px;
+            }
+            .accordion{
+              width: 40%;
+              margin-left: 27%;
+            }
+            .cheat-1{
+              text-align: left;
+              margin-left: 2%;
+            }
+            .picture-1{
+              margin-top: 2%;
+            }
+            .cheat-2{
+              margin-top: 2%;
+            }
+            .picture-2{
+              margin-top: 2%;
+            }
+            .cheat-3{
+              margin-top: 2%;
+            }
+            .picture-3{
+              margin-top: 2%;
+            }
+            .picture-4{
+              margin-top: 2%;
+            }
+            .picture-5{
+              margin-top: 2%;
+            }
+            .picture-6{
+              margin-top: 2%;
+            }
+            .picture-7{
+              margin-top: 2%;
+            }
+            .picture-8{
+              margin-top: 2%;
+            }
+            .cheat-4{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-5{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-6{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-7{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-8{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-9{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-10{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-11{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-12{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-13{
+              text-align: left;
+              margin-top: 2%;
+            }
+            .cheat-14{
+              text-align: left;
+              margin-top: 2%;
+            }
+            div:hover {
+             border: 0px solid black;
+           }
+            .footer {
+                width: 100%;
+                grid-column: 1/ -1;
+                background-color: wheat;
+                border: 1px solid black;
+                margin-left: 0%;
+                margin-top: 10%;
+                text-align: center;
+                margin-bottom: 1%;
+            }
+          
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="head">
+            <img src="file5.PNG" width="120px" height="145%">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Nhập từ khóa để tìm kiếm" aria-label="Search">
+                <img src="file19.PNG" width="50px" style="margin-right: 20%;">  
+            </form> 
+        <div class="check-2">
+            <img src="file3.PNG" width="50px" height="100%" style="margin-bottom: -10%;">
+        </div>
+        <div class="check-4">
+            <img src="file4.png" style="width: 30px;">
+        </div>
+        </div>
+
+        <div class="head-link">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Trang chủ</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <div class="set-1">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <p> Shop thú cưng </p>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="cho.html">Chó</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Khác</a></li>
+                        </ul>
+                      </li>
+                    </div>
+
+                    <div class="set-2">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dịch vụ thú cưng
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="tialong.html">Cắt tỉa lông chó mèo</a></li>
+                          <li><a class="dropdown-item" href="spa.html">Tắm spa cho chó mèo</a></li>
+                          <li><a class="dropdown-item" href="khachsan.html">Khách sạn chó mèo</a></li>
+                          <li><a class="dropdown-item" href="#">Hỏi đáp miễn phí</a></li>
+                        </ul>
+                      </li>
+                      </div>
+          
+                      <div class="set-3">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tạp chí thú cưng
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Góc báo chỉ</a></li>
+                            <li><a class="dropdown-item" href="#">Chó cảnh</a></li>
+                            <li><a class="dropdown-item" href="#">Mèo cảnh</a></li>
+                            <li><a class="dropdown-item" href="#">Chim cảnh</a></li>
+                            <li><a class="dropdown-item" href="#">Thú cảnh khác</a></li>
+                          </ul>
+                        </li>
+                        </div>
+
+                        <div class="set-4">
+                      <li class="nav-item">
+                        <a class="nav-link disabled"> Hỗ trợ</a>
+                      </li>
+                    </ul>
+                    </div>
+                   </div>
+                </nav>
+              </div>
+            </div>
+         </body>
+        
+      <div class="table-1">
+        <body>
+          <table>
+          <strong >Pet Shop </strong>  là chuỗi pet shop thú cưng <a href="...">  Đồ dùng cho chó  – Đồ dùng cho mèo </a> tại Hà Nội, TP.HCM, Đà Nẵng và Hải Phòng với hệ thống nhiều chi nhánh cửa hàng thú </br> cưng chuyên cung cấp đồ dùng, quần áo, thức ăn, sữa tắm, chuồng, vòng cổ xích và các phụ kiện cho <a href="...">>Chó cảnh , Mèo cảnh , Cá cảnh . </a> Cùng nhiều bài viết chia sẻ kinh nghiệm chăm sóc <a href="...">Thỏ cảnh , Chuột cảnh , Sóc cảnh , Chim cảnh , Bò sát </a> cảnh hàng đầu tại Việt Nam. Địa chỉ nhận tắm spa, chăm sóc, cắt tỉa lông và trông giữ thú cưng chuyên nghiệp. Với chất lượng dịch vụ tốt nhất luôn được khách hàng tin tưởng sẽ là điểm đến lý tưởng và tuyệt vời dành cho vật nuôi.
+        </table>
+        </body>
+      </div>
+
+         <body>
+           <div class="rename-1">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="file6.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Trông giữ chó mèo</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="file7.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chăm sóc thú cưng</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="file18.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Khách sạn chó mèo</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="file9.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cứu hộ thú cưng</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="file10.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Spa cho chó mèo</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="file11.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tắm chó mèo</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="file12.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Thời trang cho thú cưng</h5>
+                </div>
+              </div>
+            </div>
+                
+            <div class="rename-2">
+                <div class="card-body">
+                  <h1 class="card-title"></h1>
+                  <a href="...">Tin khác</a>
+                  <p style="margin-top: 5%;">Hoặc</p>
+                  <a href="dangky.html">Đăng ký để được tư vấn miễn phí</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      </body>
+
+        <body>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <div class="cheat-1">
+              <strong>Danh mục</strong>
+            </div>
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  1. Dịch vụ chăm sóc thú cưng là gì?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Dịch vụ chăm sóc thú cưng là </strong> hoạt động chăm sóc và “làm đẹp” lại cho thú cưng thông qua các hoạt động như: cắt tỉa, cạo lông, nhuộm, tắm và vệ sinh cho chó mèo. Ngoài ra ngày nay còn có thêm các hoạt động như: dịch vụ khách sạn cho thú cưng, tư vấn dinh dưỡng, cứu hộ thú cưng…. <br>
+                  <div class="picture-1">
+                  <img src="file14.png" width="100%">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2. Khi nào bạn nên sử dụng dịch vụ chăm sóc thú cưng?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Nhu cầu nuôi thú cưng </strong> ngày một tăng cao, nhưng không phải lúc nào chủ nhân cũng dành thời gian để chăm sóc và nuôi dưỡng chúng hằng ngày, đặc biệt là đối với chú chó kiểng ngoại nhập. Vì thế dịch vụ chăm sóc thú cưng là một giải pháp hữu hiệu khi: </br>
+                    <div class="picture-2">
+                       <img src="file15.png" width="100%">
+                    </div>
+
+                  <div class="cheat-2">
+                  <strong>a) Dịch vụ chăm sóc thú cưng tại cửa hàng</strong>
+                    Ưu điểm của dịch vụ này là thú cưng được trải nghiệm những hệ thống máy móc tối tân, hiện đại nhất tại cửa hàng, spa. Bạn sẽ được đội ngũ nhân viên tư vấn và hỗ trợ nhiệt tình, đồng thời bạn cũng có thể trang bị thêm những kiến thức về chăm sóc thú cưng khi được gặp trực tiếp bác sĩ hoặc nhân viên chăm sóc.
+                    
+                    Tuy nhiên, nhược điểm là bạn tốn thời gian di chuyển, đi lại và thời gian để chời đợi chăm sóc thú cưng (Thú cưng được chăm sóc tốn từ 1-2h/1 lần)</br>
+                    </div>
+
+                    <div class="cheat-3">
+                   <strong> b) Dịch vụ chăm sóc thú cưng tại nhà </strong>
+                    Dịch vụ chăm sóc thú cưng tại nhà vừa giúp bạn tiết kiệm thời gian khi di chuyển đến cửa hàng mà cũng vừa giúp thú cưng có cơ hội được trải nghiệm các dịch vụ chăm sóc chuyên nghiệp. Đồng thời bạn cũng có cơ hội đồng hành và trải nghiệm cùng thú cưng để có thể tự chăm sóc chúng ở những lần sau với những việc đơn giản.
+                    
+                    Tuy nhiên, vì là tại nhà nên hệ thống thiết bị, dụng cụ cũng bị những hạn chế nhất định, và giá cả của dịch vụ tại nhà cũng thường cao hơn so với tại spa vì bạn phải tốn thêm một khoảng chi phí di chuyển của nhân viên chăm sóc.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3. Các dịch vụ chăm sóc thú cưng tại tphcm
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="alert alert-dark" role="alert">
+                    Ngày nay thú cưng được xem là những người bạn đồng hành trong gia đình, chúng luôn được cưng chiều và chăm sóc cả về sức khỏe lẫn tinh thần. Sau đây là một số <strong>dịch vụ chăm sóc thú cưng </strong>phổ biến hiện nay: </br>
+                  </div>
+
+                  <div class="picture-3">
+                    <img src="file16.png" width="100%">
+                  </div>
+
+                <div class="cheat-4">
+                  <strong>a) Dịch vụ cắt tỉa lông cho chó mèo</strong>
+
+                  Việc <strong>cắt tỉa lông cho chó mèo</strong> là một việc quan trọng bởi chúng thường xuyên vận động, chạy nhảy nhiều, bộ lông cần chăm sóc, cắt tỉa cẩn thân để mang lại sự thoải mái, tránh bụi bẩn cũng như nấm mốc, các bệnh về da… </br>
+                  </div>
+                <div class="cheat-5">
+                  <img src="file13.png" width="100%">
+                </div>
+                
+              <div class="cheat-4">
+                Đối với những chú chó có bộ lông dày, rậm như Poodle, chó nhật lông xù… càng phải được cắt tỉa và tắm gội thường xuyên để không tạo điều kiện cho ký sinh trùng phát triển. Bên cạnh đó cũng loại bỏ những phần lông chết, phần lông không cần thiết. </br>
+              </div>
+
+              <div class="cheat-5">
+               Để cho thú cưng của bạn sạch sẽ, thơm tho và luôn gọn gàng với “kiểu tóc” đẹp bạn nên sắp xếp thời gian để cắt tỉa lông cho chúng thường xuyên. Có thể 1 lần/ 1 tuần. </br>
+               </div>
+
+              <div class="cheat-6">
+               Nếu bạn quá bận rộn hoặc chưa biết cách cắt tỉa lông cho chó mèo thì nên sử dụng dịch vụ cắt tỉa lông để vừa đảm bảo an toàn, vừa mang lại một diện mạo đẹp cho chúng. Giá dịch vụ cắt tỉa lông cho chó mèo dao động khoảng 200.000VNĐ - 1.500.000VNĐ cho một lần cắt, tùy theo giống chó cũng như dịch vụ sử dụng.
+              </div>
+
+              <div class="cheat-7">
+                <strong> b) Dịch vụ tắm cho chó mèo </strong> </br>
+                Dịch vụ tắm cho thú cưng ngày nay cũng được sử dụng phổ biến, đặc biệt đối với những gia chủ quá bận rộn, không có nhiều thời gian để tắm rửa và chăm sóc chúng. Hoặc đối với những chú chó, mèo dễ mẫn cảm với các loại dầu gội, sữa tắm cần sự hỗ trợ của nhân viên hoặc các bác sĩ thú y.
+              </div>
+                  <div class="picture-5">
+                    <img src="file17.PNG" width="100%">
+                  </div>
+
+                  <div class="cheat-8">
+                  Giá dịch vụ tắm cho chó mèo hiện nay giao động trong khoảng từ 100.000VNĐ – 600.000VNĐ tùy theo cân nặng, giống chó, mèo mà bạn đang nuôi
+                  </div>
+
+                  <div class="cheat-9">
+                  <strong> c) Dịch vụ khách sạn thú cưng</strong> </br>
+
+                    <strong style="color:red;">Dịch vụ khách sạn thú cưng </strong>giúp bạn không còn lo lắng và suy nghĩ phải gửi chó mèo cho ai chăm khi phải đi công tác đột xuất hoặc đi du lịch cùng gia đình và không ai chăm sóc.
+                  </div>
+
+                  <div class="picture-6">
+                    <img src="file20.PNG" width="100%">
+                  </div>
+
+                  <div class="cheat-10">
+                    Hiện nay, khách sạn thú cưng được đầu tư khá công phu và chất lượng, kèm theo đó thú cưng của bạn sẽ được chăm sóc, tắm rửa, ăn uống một cách thoải mái như ở nhà của bạn. Chính vì thế, dịch vụ khách sạn thú cưng ngày càng được yêu thích và chọn lựa sử dụng nhiều. </br>
+
+                    Giá dịch vụ khách sạn thú cưng hiện nay giao động trong khoảng từ 300.000VNĐ – 500.000VNĐ tùy vào trọng lượng của thú cưng.
+                  </div>
+
+                  <div class="cheat-11">
+                    <strong>d) Dịch vụ dinh dưỡng thú cưng</strong> </br>
+                   Dinh dưỡng, thức ăn, chế độ ăn uống là những yếu tố ảnh hưởng trực tiếp đến quá trình phát triển của thú cưng. Vì thế bạn cần lưu ý để tránh xảy ra các bệnh về tiêu hóa, béo phì,… hoặc ảnh hưởng đến sức khỏe, sự chậm phát triển của chúng. </br>
+
+                  Dịch vụ tư vấn dinh dưỡng thú cưng sẽ giúp bạn hoàn toàn yên tâm và không còn lo ngại gì về vấn đề này, đặc biệt là chế độ ăn uống cân bằng, phù hợp với từng độ tuổi, từng giai đoạn phát triển cũng như thể trạng của thú cưng. </br>
+
+                  Bạn có thể kết hợp với các dịch vụ khám sức khỏe định kỳ cùng với dịch vụ dinh dưỡng thú cưng để những chú chó mèo được chăm sóc một cách toàn diện nhất.
+                  </div>
+
+                <div class="cheat-12">
+                 <strong> e) Dịch vụ cứu hộ thú cưng </strong> </br>
+                  Dịch vụ cứu hộ thú cưng là một trong những dịch vụ thiết yếu ngày nay giúp hỗ trợ, cứu hỗ những chú chó mèo gặp phải những sự cố, những tai nạn trong cuộc sống. </br>
+                  
+                  Ngoài những trung tâm cứu hộ thú cưng, hiện nay các cơ sở cung cấp dịch vụ thú cưng cũng khá phổ biến nhằm mang lại những tiện ích: hỗ trợ kịp thời, nhanh chóng nhất cho thú cưng khi gặp sự cố, đội ngũ bác sĩ, hệ thống máy móc đầy đủ…  </br>
+                  
+                  Khi thú cưng gặp nạn, hãy tìm những cơ sở cung cấp dịch vụ cứu hộ gần nhất để được hỗ trợ nhanh nhất nhé.
+                </div>
+
+                <div class="cheat-13">
+                  <strong style="color:red">4. Bảng giá dịch vụ chăm sóc thú cưng </strong>
+                </div>
+
+                <div class="picture-7">
+                  <img src="file21.PNG" width="100%">
+                </div>
+
+                <div class="cheat-14">
+                  <strong style="color:brown">5. Cửa hàng chăm sóc thú cưng uy tín tại tphcm </strong> </br>
+
+                  Pet Shop à một trong những <strong style="color:red;"> hàng chăm sóc thú cưng tại tphcm ,</strong> uy tín và chất lượng được rất nhiều khách hàng yêu thích và lựa chọn. Với đội ngũ nhân viên, bác sĩ giàu kinh nghiệm, lành nghề, nhiệt tình và có tâm với việc chăm sóc thú cưng, Dog’s Mom mang luôn mang đến những trải nghiệm tốt nhất cho chó mèo nhà bạn.
+                </div>
+
+                <div class="picture-8">
+                  <img src="file22.PNG" width="100%">
+                </div>
+
+                <div class="cheat-15">
+                  Địa chỉ: <strong style="color: darkblue;"></strong> Shop - 620 Lũy Bán Bích, phường Tân Thành, quận Tân Phú , TPHCM
+                  Cơ sở 2: 63 Xóm Củi, p11, quận 8, TPHCM
+                 Hotline/Zalo/Viber : <strong style="color:red">0916338901 </strong> 
+                </div>
+              </body>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </body>
+      </body>
+    </div>    
+    </body>
+</html>
